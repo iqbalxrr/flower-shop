@@ -2,6 +2,7 @@
 header{
 width: 1920px;
 height: 850px;
+background: rgba(229, 84, 115, 0.10);
 }
 .header-container{
     display: flex;
@@ -72,9 +73,22 @@ height: 850px;
     gap: 24px;
     
 }
-.main-img{
+.main-img-first{
     padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
 
+}
+.main-img-second{
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+
+}
+.main-img-third{
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
 }
 #main-img-two{
     object-position: bottom;
@@ -86,4 +100,136 @@ height: 850px;
 .main-img-two{
     padding-left: 200px;
 }  
+/* discount container styles */
+.dicount-container-section{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
 
+.discount-container{
+    display: flex;
+    gap: 200px;
+}
+.discount-container-one{
+    padding: 230px 0px 160px 390px;
+}
+.discount-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.off-title{
+    color: #E55473;
+   
+}
+.discount-discription{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+   
+}
+.discount-img{
+  padding: 100px 340px 100px 0px ;
+}
+/* instageram styles */
+
+.insta-section{
+    text-align: center;
+    padding-top: 100px;
+    gap: 24px;
+}
+.insta-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-discription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding-bottom: 50px;
+}
+/* populer-img-section */
+.populer-img-section{
+    display:flex;
+    gap: 20px;
+    padding: 10px 240px;
+}
+/* deal-section */
+.deal-section{
+     background-image: url('../flower-shop-assignment/Flower\ Asset/Rectangle 9.png');
+     width: 1440px;
+    height: 449px;
+    padding: 10px 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.deal-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+}
+.deal-discription{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.deal-input{
+    display:flex;
+}
+.email-input{
+    /* margin: 20px 100px; */
+    margin: 25px 10px 0px 250px ;
+    width: 700px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.subscribe-btn{
+    width: 150px;
+    height: 70px;
+    margin-top: 25px;
+    border-radius: 8px;
+  background: #E55473;
+  color: #fff;
+  font-size: 24px;
+}
+/* footer styles */
+footer{
+    background: #111010;
+    color: #fff;
+}
+.footer-title{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 48px;
+    font-weight: 800;
+}
+#flower{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+.footer-discription{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 100px;
+}
