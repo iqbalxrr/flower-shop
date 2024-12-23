@@ -110,7 +110,7 @@ background: rgba(71, 125, 17, 0.15);
 
 .discount-container{
     display: flex;
-    gap: 200px;
+    gap: 250px;
 }
 .discount-container-one{
     padding: 230px 0px 160px 390px;
